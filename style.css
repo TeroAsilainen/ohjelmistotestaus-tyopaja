@@ -1,0 +1,23 @@
+h1, form, section {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+button {
+    padding: 1em;
+    margin: 1em;
+}
+
+label {
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
