@@ -1,23 +1,44 @@
+* {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 h1, form, section {
     padding: 1em;
     margin: 1em;
     display: flex;
     justify-content: center;
     align-self: center;
+    font-size: larger;
+    color: azure;
 }
 
 button {
     padding: 1em;
     margin: 1em;
+    border-radius: 1em;
+    font-size: large;
 }
 
 label {
     padding: 10px;
     margin: 10px;
+    font-size: larger;
+    color: azure;
+    border-radius: 1em;
+}
+
+input {
+    font-size: large;
 }
 
 div {
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+body {
+    background-color: darkslategrey;
 }
