@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "scripts": {},
+  "scripts": {
+    "start":"npx node-http-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TeroAsilainen/ohjelmistotestaus-tyopaja.git"
@@ -19,5 +21,8 @@
   "devDependencies": {
     "@playwright/test": "^1.54.1",
     "@types/node": "^24.1.0"
+  },
+  "dependencies": {
+    "node-http-server": "^8.1.6"
   }
 }

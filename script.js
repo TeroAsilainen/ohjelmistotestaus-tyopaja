@@ -19,8 +19,8 @@ document.getElementById('erotus').addEventListener('click', () => {
     if (isNaN(a) || isNaN(b)){
         document.getElementById('tulos').innerHTML = 'Virhe!';
     } else{
-        const erotus = parseFloat(a) - parseFloat(b);
-    document.getElementById('tulos').innerHTML = erotus;
+        const erotus = 10*parseFloat(a) - 10*parseFloat(b);
+    document.getElementById('tulos').innerHTML = erotus/10;
     }
     
 }
