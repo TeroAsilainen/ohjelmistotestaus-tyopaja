@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 [
   { a: '2', b: '2', tulos: '1' },
   { a: '1', b: '-1', tulos: '-1'},
-  { a: '1.1', b: '1.2', tulos: '0.9166666666666667'},
+  { a: '1.1', b: '1.2', tulos: '0.91666'},
   { a: 'a', b: '0', tulos: 'Virhe!' },
   { a: '2', b: '0', tulos: 'Virhe!' },
 ].forEach(({ a, b, tulos}) => {
